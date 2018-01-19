@@ -13,9 +13,30 @@
     <h1> Contact us!</h1>
     </header>
     <main>
-        <address> </address>
+        <address> 555 southmain of nowhere </address>
         <!-- The adress is for the static adress -->
-        <section> </section>
+        <section> 
+            <h2>Have a Question?</h2>
+            <!-- by default the following form has a method = "get" -->
+            <!-- it is the same as <form action = "contact.html" method "get" -->
+            <!-- this form will show all info using the adress bar url -->
+            <!-- the alternative is method = "post" which will not show in adress -->
+
+            <form action="contact.html">
+
+            
+            <label for="Full name">Full Name</label>
+            <input type="text" name="fullname">
+            <label for="email">Email</label>
+            <input type="email" name="email">
+            <label for="Question">Question:</label>
+            <textarea name="Question" cols="30" rows="10"></textarea>
+            <!-- There are two ways to create a form button -->
+            <!-- <input type "button" value = "subit"-->
+            <!-- <input type="submit" value="submit again" -->
+                <button>Submit</button>
+            </form>
+        </section>
         <!-- the section will contain the contact form -->
         
     </main>
